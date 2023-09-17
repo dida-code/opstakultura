@@ -1,0 +1,55 @@
+{
+  "pitanja": [
+    {
+      "pitanje": "Ko je napisao roman 'Ana Karenjina'?",
+      "odgovori": ["Fjodor Dostojevski", "Lav Tolstoj", "Gustav Flober", "Herman Hese"],
+      "tacan_odgovor": "Lav Tolstoj"
+    },
+    {
+      "pitanje": "Koja reka je najduža na svetu?",
+      "odgovori": ["Nil", "Amazon", "Misisipi", "Jangce"],
+      "tacan_odgovor": "Nil"
+    },
+    {
+      "pitanje": "Koja planeta se nalazi između Zemlje i Marsa?",
+      "odgovori": ["Venera", "Jupiter", "Saturn", "Uran"],
+      "tacan_odgovor": "Venera"
+    },
+    {
+      "pitanje": "Koji je najviši vrh na svetu?",
+      "odgovori": ["Matterhorn", "Everest", "Kilimandžaro", "Mont Blanc"],
+      "tacan_odgovor": "Everest"
+    },
+    {
+      "pitanje": "Ko je autor 'Romea i Julije'?",
+      "odgovori": ["Charles Dickens", "William Shakespeare", "Jane Austen", "Leo Tolstoy"],
+      "tacan_odgovor": "William Shakespeare"
+    },
+    {
+      "pitanje": "Ko je slikar 'Mona Lize'?",
+      "odgovori": ["Pablo Picasso", "Vincent van Gogh", "Leonardo da Vinci", "Michelangelo"],
+      "tacan_odgovor": "Leonardo da Vinci"
+    },
+    {
+      "pitanje": "Koji gas čini najveći deo Zemljine atmosfere?",
+      "odgovori": ["Azot", "Ozon", "Vodonik", "Kiseonik"],
+      "tacan_odgovor": "Azot"
+    },
+    {
+      "pitanje": "Koja je najveća pustinja na svetu?",
+      "odgovori": ["Sahara", "Gobi", "Atakama", "Kalahari"],
+      "tacan_odgovor": "Sahara"
+    },
+    {
+      "pitanje": "Ko je napisao delo 'Rat i mir'?",
+      "odgovori": ["Fjodor Dostojevski", "Lev Tolstoj", "Gustav Flober", "Herman Hese"],
+      "tacan_odgovor": "Lev Tolstoj"
+    },
+    {
+      "pitanje": "Ko je prvi čovek kročio na Mesec?",
+      "odgovori": ["Neil Armstrong", "Yuri Gagarin", "Buzz Aldrin", "Alan Shepard"],
+      "tacan_odgovor": "Neil Armstrong"
+    }
+  ]
+}
+

@@ -1,0 +1,7 @@
+data/io.github.dida_code.OpstaKultura.desktop.in
+data/io.github.dida_code.OpstaKultura.appdata.xml.in
+data/io.github.dida_code.OpstaKultura.gschema.xml
+src/window.ui
+src/main.py
+src/window.py
+

@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=opstakultura
+Exec=opstakultura
+Icon=io.github.dida_code.OpstaKultura
+Terminal=false
+Type=Application
+Categories=GTK;
+StartupNotify=true
