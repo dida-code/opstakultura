@@ -23,6 +23,7 @@ import random
 class OpstakulturaWindow(Gtk.ApplicationWindow):
     __gtype_name__ = 'OpstakulturaWindow'
 
+    zapocni = Gtk.Template.Child()
     skor = Gtk.Template.Child()
     bod = Gtk.Template.Child()
     pitanja = Gtk.Template.Child()
@@ -45,13 +46,8 @@ class OpstakulturaWindow(Gtk.ApplicationWindow):
         self.index = []
         self.broj=-1
         self.pitanja.set_text("Da li zelite da zapocnete novu igru?")
-        self.button1.set_label("Zapocni")
-        self.button1.connect("clicked", lambda widget: self.prikazi_sledece_pitanje())
-
-
-
-
-        #self.prikazi_sledece_pitanje()
+        self.zapocni.set_label("Zapocni")
+        self.zapocni.connect("clicked", lambda widget: self.prikazi_sledece_pitanje())
 
     def prikazi_sledece_pitanje(self):
         self.broj = self.broj + 1
@@ -70,27 +66,24 @@ class OpstakulturaWindow(Gtk.ApplicationWindow):
             self.button3.set_label(self.trenutni_odgovori[2])
             self.button4.set_label(self.trenutni_odgovori[3])
 
-
-
             # Ponovo vezujte dugmad za funkciju proveri_odgovor
             self.button1.connect("clicked", self.proveri_odgovor)
             self.button2.connect("clicked", self.proveri_odgovor)
             self.button3.connect("clicked", self.proveri_odgovor)
             self.button4.connect("clicked", self.proveri_odgovor)
 
-
-
-
-
         else:
             self.pitanja.set_text("Sva pitanja su završena!")
+            self.button1.set_label("")
+            self.button2.set_label("")
+            self.button3.set_label("")
+            self.button4.set_label("")
 
     def proveri_odgovor(self, widget):
         self.button1.disconnect_by_func(self.proveri_odgovor)
         self.button2.disconnect_by_func(self.proveri_odgovor)
         self.button3.disconnect_by_func(self.proveri_odgovor)
         self.button4.disconnect_by_func(self.proveri_odgovor)
-
 
         if widget.get_label() == self.tacan_odgovor:
             print("Tacno")
@@ -99,9 +92,6 @@ class OpstakulturaWindow(Gtk.ApplicationWindow):
             print("Netacno")
 
         self.prikazi_sledece_pitanje()
-
-
-
 
 class AboutDialog(Gtk.AboutDialog):
 
