@@ -28,6 +28,12 @@
             <property name="spacing">5</property>
             <property name="valign">start</property>
             <child>
+              <object class="GtkButton" id="zapocni">
+                <property name="label">Zapocni</property>
+                <property name="valign">center</property>
+              </object>
+            </child>
+            <child>
               <object class="GtkLabel" id="skor">
                 <property name="label">Skor:</property>
                 <property name="valign">center</property>
@@ -113,4 +119,3 @@
     </section>
   </menu>
 </interface>
-
