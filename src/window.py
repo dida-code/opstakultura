@@ -105,10 +105,10 @@ class OpstakulturaWindow(Gtk.ApplicationWindow):
 
         else:
             self.pitanja.set_text(f"Sva pitanja su završena!\n Tvoj skor je {self.poen}!")
-            self.button1.set_label("")
-            self.button2.set_label("")
-            self.button3.set_label("")
-            self.button4.set_label("")
+            self.button1.hide()
+            self.button2.hide()
+            self.button3.hide()
+            self.button4.hide()
 
     def proveri_odgovor(self, widget):
         self.button1.disconnect_by_func(self.proveri_odgovor)
