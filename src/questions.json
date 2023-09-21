@@ -49,7 +49,316 @@
       "pitanje": "Ko je prvi čovek kročio na Mesec?",
       "odgovori": ["Neil Armstrong", "Yuri Gagarin", "Buzz Aldrin", "Alan Shepard"],
       "tacan_odgovor": "Neil Armstrong"
-    }
+    },
+    {
+    "pitanje": "Koja je glavna prestonica Francuske?",
+    "odgovori": [
+      "Rim",
+      "Berlin",
+      "London",
+      "Pariz"
+    ],
+    "tacan_odgovor": "Pariz"
+  },
+  {
+    "pitanje": "Koje godine je Kolumbo otkrio Ameriku?",
+    "odgovori": [
+      "1492",
+      "1776",
+      "1620",
+      "1519"
+    ],
+    "tacan_odgovor": "1492"
+  },
+  {
+    "pitanje": "Koja planeta je poznata kao 'Crvena planeta'?",
+    "odgovori": [
+      "Merkur",
+      "Venera",
+      "Mars",
+      "Jupiter"
+    ],
+    "tacan_odgovor": "Mars"
+  },
+  {
+    "pitanje": "Ko je bio osnivač Rimskog Carstva?",
+    "odgovori": [
+      "Julije Cezar",
+      "Marko Antonije",
+      "August",
+      "Neron"
+    ],
+    "tacan_odgovor": "August"
+  },
+  {
+    "pitanje": "Koji događaj je označio početak Prvog svetskog rata?",
+    "odgovori": [
+      "Atentat u Sarajevu",
+      "Bitka kod Verduna",
+      "Napad na Pearl Harbor",
+      "Pad Berlinskog zida"
+    ],
+    "tacan_odgovor": "Atentat u Sarajevu"
+  },
+  {
+    "pitanje": "Ko je bio osnivač Osmanskog Carstva?",
+    "odgovori": [
+      "Sulejman Veličanstveni",
+      "Mehmed Osvajač",
+      "Osman Gazi",
+      "Murat I"
+    ],
+    "tacan_odgovor": "Osman Gazi"
+  },
+  {
+    "pitanje": "Ko je napisao Deklaraciju nezavisnosti Sjedinjenih Američkih Država?",
+    "odgovori": [
+      "George Washington",
+      "Benjamin Franklin",
+      "Thomas Jefferson",
+      "John Adams"
+    ],
+    "tacan_odgovor": "Thomas Jefferson"
+  },
+  {
+    "pitanje": "Koja godina označava početak Velike depresije u SAD-u?",
+    "odgovori": [
+      "1929",
+      "1939",
+      "1945",
+      "1917"
+    ],
+    "tacan_odgovor": "1929"
+  },
+  {
+    "pitanje": "Koja osoba je bila vodeća figura u Južnoafričkom pokretu protiv aparthejda?",
+    "odgovori": [
+      "Nelson Mandela",
+      "Winston Churchill",
+      "Mahatma Gandhi",
+      "Mikhail Gorbachev"
+    ],
+    "tacan_odgovor": "Nelson Mandela"
+  },
+  {
+    "pitanje": "Ko je bio vladar Rusije tokom Oktobarske revolucije 1917. godine?",
+    "odgovori": [
+      "Nikola II Romanov",
+      "Lenjin",
+      "Staljin",
+      "Kerenski"
+    ],
+    "tacan_odgovor": "Nikola II Romanov"
+  },
+  {
+    "pitanje": "Ko je bio lider Kine tokom Kulturne revolucije?",
+    "odgovori": [
+      "Sun Yat-sen",
+      "Mao Zedong",
+      "Chiang Kai-shek",
+      "Deng Xiaoping"
+    ],
+    "tacan_odgovor": "Mao Zedong"
+  },
+  {
+    "pitanje": "Koji drevni egipatski vladar je poznat po izgradnji Velike piramide u Gizi?",
+    "odgovori": [
+      "Ramses II",
+      "Hatshepsut",
+      "Tutankamon",
+      "Keops"
+    ],
+    "tacan_odgovor": "Keops"
+  },
+  {
+    "pitanje": "Koji rat je poznat kao 'Rat za nezavisnost SAD-a'?",
+    "odgovori": [
+      "Građanski rat",
+      "Prvi svetski rat",
+      "Rat za nezavisnost",
+      "Rat protiv terorizma"
+    ],
+    "tacan_odgovor": "Rat za nezavisnost"
+  },
+  {
+    "pitanje": "Ko je najpoznatiji fudbaler svih vremena?",
+    "odgovori": [
+      "Lionel Messi",
+      "Cristiano Ronaldo",
+      "Pelé",
+      "Diego Maradona"
+    ],
+    "tacan_odgovor": "Pelé"
+  },
+  {
+    "pitanje": "Koja zemlja je domaćin prvog modernog letnjeg Olimpijskog igara 1896. godine?",
+    "odgovori": [
+      "SAD",
+      "Grčka",
+      "Francuska",
+      "Italija"
+    ],
+    "tacan_odgovor": "Grčka"
+  },
+  {
+    "pitanje": "Ko je osvojio najviše Grend slem teniskih turnira u muškoj kategoriji?",
+    "odgovori": [
+      "Roger Federer",
+      "Rafael Nadal",
+      "Pete Sampras",
+      "Novak Đoković"
+    ],
+    "tacan_odgovor": "Novak Đoković"
+  },
+  {
+    "pitanje": "Koji sportisti se takmiče u Le Mans trci?",
+    "odgovori": [
+      "Formula 1 vozači",
+      "Biciklisti",
+      "Maratonci",
+      "Automobilisti"
+    ],
+    "tacan_odgovor": "Automobilisti"
+  },
+  {
+    "pitanje": "Koliko igrača je obično u timu na fudbalskom terenu?",
+    "odgovori": [
+      "9",
+      "10",
+      "11",
+      "12"
+    ],
+    "tacan_odgovor": "11"
+  },
+  {
+    "pitanje": "Ko je najuspešniji vozač u istoriji Formule 1?",
+    "odgovori": [
+      "Michael Schumacher",
+      "Lewis Hamilton",
+      "Ayrton Senna",
+      "Niki Lauda"
+    ],
+    "tacan_odgovor": "Lewis Hamilton"
+  },
+  {
+    "pitanje": "Ko je najmlađi osvajač Zlatne lopte (Ballon d'Or) u fudbalu?",
+    "odgovori": [
+      "Lionel Messi",
+      "Cristiano Ronaldo",
+      "Pelé",
+      "Diego Maradona"
+    ],
+    "tacan_odgovor": "Lionel Messi"
+  },
+  {
+    "pitanje": "Koji tim je najviše puta osvojio Super Bowl u NFL-u?",
+    "odgovori": [
+      "Dallas Cowboys",
+      "New England Patriots",
+      "San Francisco 49ers",
+      "Pittsburgh Steelers"
+    ],
+    "tacan_odgovor": "Pittsburgh Steelers"
+  },
+  {
+    "pitanje": "Ko je najuspešniji olimpijski plivač svih vremena?",
+    "odgovori": [
+      "Michael Phelps",
+      "Ian Thorpe",
+      "Mark Spitz",
+      "Ryan Lochte"
+    ],
+    "tacan_odgovor": "Michael Phelps"
+  },
+  {
+    "pitanje": "Ko je osvojio najviše uzastopnih Vimbldon turnira u ženskoj konkurenciji?",
+    "odgovori": [
+      "Serena Williams",
+      "Martina Navratilova",
+      "Steffi Graf",
+      "Margaret Court"
+    ],
+    "tacan_odgovor": "Martina Navratilova"
+  },
+  {
+    "pitanje": "Koja je najveća planina na svetu?",
+    "odgovori": [
+      "Himalaji",
+      "Andi",
+      "Alpi",
+      "Kilimandžaro"
+    ],
+    "tacan_odgovor": "Himalaji"
+  },
+  {
+    "pitanje": "Koja je najveća ostrvska država na svetu?",
+    "odgovori": [
+      "Indonezija",
+      "Japan",
+      "Filipini",
+      "Kuba"
+    ],
+    "tacan_odgovor": "Indonezija"
+  },
+  {
+    "pitanje": "Koja zemlja se nalazi na obali Maroka i Španije?",
+    "odgovori": [
+      "Portugal",
+      "Francuska",
+      "Alžir",
+      "Gibraltar"
+    ],
+    "tacan_odgovor": "Gibraltar"
+  },
+  {
+    "pitanje": "Koja zemlja se prostire na dva kontinenta - Aziji i Evropi?",
+    "odgovori": [
+      "Rusija",
+      "Turska",
+      "Grčka",
+      "Egipat"
+    ],
+    "tacan_odgovor": "Rusija"
+  },
+  {
+    "pitanje": "Koja je najmanja kontinentalna država na svetu?",
+    "odgovori": [
+      "Monako",
+      "Vatikan",
+      "San Marino",
+      "Andora"
+    ],
+    "tacan_odgovor": "Vatikan"
+  },
+  {
+    "pitanje": "Koji je najveći jezero na svetu po površini?",
+    "odgovori": [
+      "Kaspijsko jezero",
+      "Bajkalsko jezero",
+      "Superior",
+      "Crveno more"
+    ],
+    "tacan_odgovor": "Kaspijsko jezero"
+  },
+  {
+    "pitanje": "Koja zemlja je poznata kao 'Zemlja izlazećeg sunca'?",
+    "odgovori": [
+      "Kina",
+      "Indija",
+      "Japan",
+      "Australija"
+    ],
+    "tacan_odgovor": "Japan"
+  },
+  {
+    "pitanje": "Koja država ima najviše jezera na svetu?",
+    "odgovori": [
+      "Kanada",
+      "SAD",
+      "Rusija",
+      "Brazil"
+    ],
+    "tacan_odgovor": "Kanada"
+  }
   ]
 }
-
