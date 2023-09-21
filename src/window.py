@@ -45,12 +45,15 @@ class OpstakulturaWindow(Gtk.ApplicationWindow):
         # Inicijalizacija liste za indekse pitanja
         self.index = []
         self.broj=-1
+        self.poen=0
         self.pitanja.set_text("Da li zelite da zapocnete novu igru?")
         self.zapocni.set_label("Zapocni")
         self.zapocni.connect("clicked", lambda widget: self.prikazi_sledece_pitanje())
 
     def prikazi_sledece_pitanje(self):
+        self.zapocni.hide()
         self.broj = self.broj + 1
+        self.bod.set_label(str(self.poen))
 
         if self.broj < len(self.questions["pitanja"]):
             trenutni_indeks = self.broj
@@ -73,7 +76,7 @@ class OpstakulturaWindow(Gtk.ApplicationWindow):
             self.button4.connect("clicked", self.proveri_odgovor)
 
         else:
-            self.pitanja.set_text("Sva pitanja su završena!")
+            self.pitanja.set_text(f"Sva pitanja su završena!\n Tvoj skor je {self.poen}!")
             self.button1.set_label("")
             self.button2.set_label("")
             self.button3.set_label("")
@@ -87,6 +90,8 @@ class OpstakulturaWindow(Gtk.ApplicationWindow):
 
         if widget.get_label() == self.tacan_odgovor:
             print("Tacno")
+            self.poen +=1
+            print(self.poen)
 
         else:
             print("Netacno")
