@@ -1,3 +1,29 @@
 .pitanja {
+  font-family: "Vaša Font Familija", sans-serif;
+  font-size: 40px; /* Veličina fonta */
+  font-weight: bold; /* Težina fonta (normal, bold, itd.) */
+  background: #4c93ba;
+  color: #fff;
+  border-radius: 30px;
+  padding: 10px;
+}
+.button {
+  font-family: "Vaša Font Familija", sans-serif;
+  background: #4c93ba;
+  color: #fff;
   font-size: 30px;
+  width: auto; /* Automatsko prilagođavanje širine */
+  height: auto; /* Automatsko prilagođavanje visine */
+  padding: 10px;
+  border-radius: 30px;
+}
+.skor {
+  font-family: "Vaša Font Familija", sans-serif;
+  font-size: 25px; /* Veličina fonta */
+  font-weight: bold; /* Težina fonta (normal, bold, itd.) */
+  background: #4c93ba;
+  color: #fff;
+  border-radius: 10px;
+  padding: 10px;
+  border-radius: 30px;
 }
