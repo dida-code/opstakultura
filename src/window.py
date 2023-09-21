@@ -34,6 +34,28 @@ class OpstakulturaWindow(Gtk.ApplicationWindow):
 
     def __init__(self, **kwargs):
         super().__init__(**kwargs)
+        
+        
+        self.skor.hide()
+        self.bod.hide()
+        self.button1.hide()
+        self.button2.hide()
+        self.button3.hide()
+        self.button4.hide()
+        
+        
+        self.skor.get_style_context().add_class("skor")
+        self.bod.get_style_context().add_class("skor")
+        self.zapocni.get_style_context().add_class("button")
+        self.pitanja.get_style_context().add_class("pitanja")
+        self.button1.get_style_context().add_class("button")
+        self.button2.get_style_context().add_class("button")
+        self.button3.get_style_context().add_class("button")
+        self.button4.get_style_context().add_class("button")
+        
+        css_provider = Gtk.CssProvider()
+        css_provider.load_from_file(Gio.File.new_for_path('style.css'))
+        Gtk.StyleContext.add_provider_for_display(Gdk.Display.get_default(), css_provider, Gtk.STYLE_PROVIDER_PRIORITY_APPLICATION)
 
         # Putanja do resursa za questions.json
         bytes = Gio.resources_lookup_data('/io/github/dida_code/OpstaKultura/questions.json', 0)
@@ -51,6 +73,12 @@ class OpstakulturaWindow(Gtk.ApplicationWindow):
         self.zapocni.connect("clicked", lambda widget: self.prikazi_sledece_pitanje())
 
     def prikazi_sledece_pitanje(self):
+        self.skor.show()
+        self.bod.show()
+        self.button1.show()
+        self.button2.show()
+        self.button3.show()
+        self.button4.show()
         self.zapocni.hide()
         self.broj = self.broj + 1
         self.bod.set_label(str(self.poen))
