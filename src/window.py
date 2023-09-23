@@ -15,7 +15,7 @@
 # You should have received a copy of the GNU General Public License
 # along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
-from gi.repository import Gtk, Gdk, Gio, GLib
+from gi.repository import Gtk, Gdk, Gio, GLib, Pango
 import json
 import random
 
@@ -31,6 +31,7 @@ class OpstakulturaWindow(Gtk.ApplicationWindow):
     button2 = Gtk.Template.Child()
     button3 = Gtk.Template.Child()
     button4 = Gtk.Template.Child()
+    broj_pitanja = Gtk.Template.Child()
 
     def __init__(self, **kwargs):
         super().__init__(**kwargs)
@@ -42,6 +43,7 @@ class OpstakulturaWindow(Gtk.ApplicationWindow):
         self.button2.hide()
         self.button3.hide()
         self.button4.hide()
+        self.broj_pitanja.hide()
         
         
         self.skor.get_style_context().add_class("skor")
@@ -52,6 +54,7 @@ class OpstakulturaWindow(Gtk.ApplicationWindow):
         self.button2.get_style_context().add_class("button")
         self.button3.get_style_context().add_class("button")
         self.button4.get_style_context().add_class("button")
+        self.broj_pitanja.get_style_context().add_class("skor")
         
         css_provider = Gtk.CssProvider()
         css_provider.load_from_file(Gio.File.new_for_path('style.css'))
@@ -68,8 +71,10 @@ class OpstakulturaWindow(Gtk.ApplicationWindow):
         self.index = []
         self.broj=-1
         self.poen=0
+        self.pracenje_pitanja = 0
         self.pitanja.set_text("Da li zelite da zapocnete novu igru?")
         self.zapocni.set_label("Zapocni")
+        random.shuffle(self.questions["pitanja"])
         self.zapocni.connect("clicked", lambda widget: self.prikazi_sledece_pitanje())
 
     def prikazi_sledece_pitanje(self):
@@ -80,15 +85,19 @@ class OpstakulturaWindow(Gtk.ApplicationWindow):
         self.button3.show()
         self.button4.show()
         self.zapocni.hide()
+        self.pracenje_pitanja += 1 
         self.broj = self.broj + 1
         self.bod.set_label(str(self.poen))
+        self.broj_pitanja.set_label(f'Pitanje {self.pracenje_pitanja}/{len(self.questions["pitanja"])}')
+        self.broj_pitanja.show()
 
         if self.broj < len(self.questions["pitanja"]):
+            #random.shuffle(self.questions["pitanja"])
             trenutni_indeks = self.broj
             trenutno_pitanje = self.questions["pitanja"][trenutni_indeks]["pitanje"]
             self.tacan_odgovor = self.questions["pitanja"][trenutni_indeks]["tacan_odgovor"]
             self.trenutni_odgovori = self.questions["pitanja"][trenutni_indeks]["odgovori"]
-
+            random.shuffle(self.trenutni_odgovori)
             print(self.tacan_odgovor)
 
             self.pitanja.set_text(trenutno_pitanje)
@@ -125,6 +134,7 @@ class OpstakulturaWindow(Gtk.ApplicationWindow):
             print("Netacno")
 
         self.prikazi_sledece_pitanje()
+
 
 class AboutDialog(Gtk.AboutDialog):
 
