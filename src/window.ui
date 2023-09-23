@@ -4,9 +4,11 @@
   <!-- interface-name window.ui -->
   <requires lib="gtk" version="4.6"/>
   <template class="OpstakulturaWindow" parent="GtkApplicationWindow">
+    <property name="resizable">False</property>
     <property name="show-menubar">True</property>
     <property name="default-width">800</property>
     <property name="default-height">600</property>
+    
     <child type="titlebar">
       <object class="GtkHeaderBar" id="header_bar">
         <child type="end">
@@ -17,6 +19,8 @@
         </child>
       </object>
     </child>
+    
+    
     <child>
       <object class="GtkBox">
         <property name="homogeneous">True</property>
@@ -29,12 +33,11 @@
         
         <child>
           <object class="GtkBox">
-          <property name="homogeneous">True</property>
           <property name="spacing">20</property>
           <property name="orientation">vertical</property>
           <property name="margin-bottom">10</property>
-          <property name="margin-end">10</property>
-          <property name="margin-start">10</property>
+          <property name="margin-end">60</property>
+          <property name="margin-start">60</property>
           <property name="margin-top">10</property>
           
             <child>
@@ -55,8 +58,18 @@
                 <object class="GtkLabel" id="bod">
                   <property name="label"></property>
                   <property name="valign">center</property>
+                  <property name="halign">end</property>
                 </object>
               </child>
+              
+              <child>
+                <object class="GtkLabel" id="broj_pitanja">
+                <property name="label">broj</property>
+                <property name="valign">center</property>
+                </object>
+              </child>
+                         
+              
             </object>
           </child>
           
@@ -79,7 +92,7 @@
               <property name="valign">center</property>
               <property name="halign">center</property>
             </object>
-          </child>
+            </child>
           
             <child>
             <object class="GtkBox">
@@ -146,6 +159,7 @@
       </object>
     </child>
   </template>
+
 
   <menu id="primary_menu">
     <section>
