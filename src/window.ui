@@ -4,10 +4,9 @@
   <!-- interface-name window.ui -->
   <requires lib="gtk" version="4.6"/>
   <template class="OpstakulturaWindow" parent="GtkApplicationWindow">
-    <property name="resizable">False</property>
     <property name="show-menubar">True</property>
-    <property name="default-width">800</property>
-    <property name="default-height">600</property>
+    <property name="default-width">1000</property>
+    <property name="default-height">700</property>
     
     <child type="titlebar">
       <object class="GtkHeaderBar" id="header_bar">
@@ -20,32 +19,21 @@
       </object>
     </child>
     
-    
     <child>
       <object class="GtkBox">
-        <property name="homogeneous">True</property>
         <property name="spacing">20</property>
         <property name="orientation">vertical</property>
-        <property name="margin-bottom">20</property>
-        <property name="margin-end">20</property>
-        <property name="margin-start">20</property>
-        <property name="margin-top">20</property>
         
         <child>
-          <object class="GtkBox">
+          <object class="GtkBox" id="box">
           <property name="spacing">20</property>
           <property name="orientation">vertical</property>
-          <property name="margin-bottom">10</property>
-          <property name="margin-end">60</property>
-          <property name="margin-start">60</property>
-          <property name="margin-top">10</property>
           
             <child>
             <object class="GtkBox">
-              <property name="margin-start">20</property>
-              <property name="margin-top">10</property>
               <property name="spacing">5</property>
               <property name="valign">start</property>
+              <property name="halign">fill</property>
               
               <child>
                 <object class="GtkLabel" id="skor">
@@ -58,7 +46,6 @@
                 <object class="GtkLabel" id="bod">
                   <property name="label"></property>
                   <property name="valign">center</property>
-                  <property name="halign">end</property>
                 </object>
               </child>
               
@@ -66,23 +53,22 @@
                 <object class="GtkLabel" id="broj_pitanja">
                 <property name="label">broj</property>
                 <property name="valign">center</property>
+                  <property name="halign">end</property>
                 </object>
               </child>
-                         
-              
+                           
             </object>
           </child>
           
             <child>
             <object class="GtkLabel" id="pitanja">
               <property name="wrap-mode">word-char</property>
-              <property name="wrap">True</property>
+              <property name="wrap">true</property>
               <property name="justify">center</property>
               <property name="label">Pitanja?</property>
-              <property name="valign">fill</property>
+              <property name="valign">baseline</property>
               <property name="halign">fill</property>
-              <property name="margin-end">20</property>
-              <property name="margin-start">20</property>
+              
             </object>
           </child>
           
@@ -95,18 +81,14 @@
             </child>
           
             <child>
-            <object class="GtkBox">
+            <object class="GtkBox" id="box_dugme">
               <property name="homogeneous">True</property>
-              <property name="margin-bottom">20</property>
-              <property name="margin-end">20</property>
-              <property name="margin-start">20</property>
               <property name="spacing">20</property>
               <property name="valign">end</property>
               
               <child>
                 <object class="GtkBox">
                   <property name="homogeneous">True</property>
-                  <property name="margin-start">5</property>
                   <property name="orientation">vertical</property>
                   <property name="spacing">20</property>
                   
@@ -131,7 +113,6 @@
               <child>
                 <object class="GtkBox">
                   <property name="homogeneous">True</property>
-                  <property name="margin-end">5</property>
                   <property name="orientation">vertical</property>
                   <property name="spacing">20</property>
                   
@@ -163,14 +144,6 @@
 
   <menu id="primary_menu">
     <section>
-      <item>
-        <attribute name="label" translatable="yes">_Preferences</attribute>
-        <attribute name="action">app.preferences</attribute>
-      </item>
-      <item>
-        <attribute name="label" translatable="yes">_Keyboard Shortcuts</attribute>
-        <attribute name="action">win.show-help-overlay</attribute>
-      </item>
       <item>
         <attribute name="label" translatable="yes">_About opstakultura</attribute>
         <attribute name="action">app.about</attribute>
