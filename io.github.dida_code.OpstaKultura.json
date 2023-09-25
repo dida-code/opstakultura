@@ -1,7 +1,7 @@
 {
     "app-id" : "io.github.dida_code.OpstaKultura",
-    "runtime" : "org.gnome.Platform",
-    "runtime-version" : "master",
+    "runtime" : "org.gnome.Sdk",
+    "runtime-version" : "45",
     "sdk" : "org.gnome.Sdk",
     "command" : "opstakultura",
     "finish-args" : [
