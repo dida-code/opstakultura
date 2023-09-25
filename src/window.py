@@ -22,7 +22,10 @@ import random
 @Gtk.Template(resource_path='/io/github/dida_code/OpstaKultura/window.ui')
 class OpstakulturaWindow(Gtk.ApplicationWindow):
     __gtype_name__ = 'OpstakulturaWindow'
-
+    
+    
+    box = Gtk.Template.Child()
+    box_dugme = Gtk.Template.Child()
     zapocni = Gtk.Template.Child()
     skor = Gtk.Template.Child()
     bod = Gtk.Template.Child()
@@ -46,6 +49,8 @@ class OpstakulturaWindow(Gtk.ApplicationWindow):
         self.broj_pitanja.hide()
         
         
+        self.box_dugme.get_style_context().add_class("box2")
+        self.box.get_style_context().add_class("box")
         self.skor.get_style_context().add_class("skor")
         self.bod.get_style_context().add_class("skor")
         self.zapocni.get_style_context().add_class("button")
@@ -55,6 +60,7 @@ class OpstakulturaWindow(Gtk.ApplicationWindow):
         self.button3.get_style_context().add_class("button")
         self.button4.get_style_context().add_class("button")
         self.broj_pitanja.get_style_context().add_class("skor")
+        
         
         css_provider = Gtk.CssProvider()
         css_provider.load_from_file(Gio.File.new_for_path('style.css'))
@@ -85,10 +91,11 @@ class OpstakulturaWindow(Gtk.ApplicationWindow):
         self.button3.show()
         self.button4.show()
         self.zapocni.hide()
-        self.pracenje_pitanja += 1 
         self.broj = self.broj + 1
         self.bod.set_label(str(self.poen))
-        self.broj_pitanja.set_label(f'Pitanje {self.pracenje_pitanja}/{len(self.questions["pitanja"])}')
+        if self.pracenje_pitanja < len(self.questions["pitanja"]):
+            self.pracenje_pitanja += 1 
+            self.broj_pitanja.set_label(f'Pitanje {self.pracenje_pitanja}/{len(self.questions["pitanja"])}')
         self.broj_pitanja.show()
 
         if self.broj < len(self.questions["pitanja"]):
@@ -99,7 +106,6 @@ class OpstakulturaWindow(Gtk.ApplicationWindow):
             self.trenutni_odgovori = self.questions["pitanja"][trenutni_indeks]["odgovori"]
             random.shuffle(self.trenutni_odgovori)
             print(self.tacan_odgovor)
-
             self.pitanja.set_text(trenutno_pitanje)
             self.button1.set_label(self.trenutni_odgovori[0])
             self.button2.set_label(self.trenutni_odgovori[1])
@@ -134,17 +140,3 @@ class OpstakulturaWindow(Gtk.ApplicationWindow):
             print("Netacno")
 
         self.prikazi_sledece_pitanje()
-
-
-class AboutDialog(Gtk.AboutDialog):
-
-    def __init__(self, parent):
-        Gtk.AboutDialog.__init__(self)
-        self.props.program_name = 'Opsta Kultura'
-        self.props.version = "0.1.0"
-        self.props.authors = ['Dimitrije Kocic']
-        self.props.copyright = '2023 Dimitrije Kocic'
-        self.set_license_type(Gtk.License.GPL_3_0)
-        self.props.logo_icon_name = 'io.github.dida_code.OpstaKultura'
-        self.props.modal = True
-        self.set_transient_for(parent)
