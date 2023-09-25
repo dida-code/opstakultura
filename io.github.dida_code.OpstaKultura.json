@@ -30,7 +30,8 @@
             "sources" : [
                 {
                     "type" : "git",
-                    "url" : "file:///home/dimitrije/Projects/OpstaKultura"
+                    "url" : "https://github.com/dida-code/opstakultura",
+                    "tag" : "v1.0.0"
                 }
             ]
         }
