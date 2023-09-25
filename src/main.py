@@ -22,7 +22,7 @@ gi.require_version('Gtk', '4.0')
 gi.require_version('Adw', '1')
 
 from gi.repository import Gtk, Gio, Adw
-from .window import OpstakulturaWindow, AboutDialog
+from .window import OpstakulturaWindow
 
 
 class OpstakulturaApplication(Adw.Application):
@@ -48,9 +48,16 @@ class OpstakulturaApplication(Adw.Application):
 
     def on_about_action(self, widget, _):
         """Callback for the app.about action."""
-        about = AboutDialog(self.props.active_window)
+        about = Adw.AboutWindow(transient_for=self.props.active_window,
+                                application_name='Opsta Kultura',
+                                application_icon='io.github.dida_code.OpstaKultura',
+                                developer_name='Dimitrije Kocic',
+                                version='1.0',
+                                developers=['Dimitrije Kocic'],
+                                website='https://github.com/dida-code/opstakultura',
+                                copyright='© 2023 Dimitrije Kocic',
+                                license_type=Gtk.License.GPL_3_0)
         about.present()
-
     def on_preferences_action(self, widget, _):
         """Callback for the app.preferences action."""
         print('app.preferences action activated')
