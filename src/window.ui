@@ -54,6 +54,7 @@
                 <property name="label">broj</property>
                 <property name="valign">center</property>
                   <property name="halign">end</property>
+                  <property name="hexpand">true</property>
                 </object>
               </child>
                            
