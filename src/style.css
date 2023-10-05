@@ -4,7 +4,7 @@
   font-weight: bold; /* Težina fonta (normal, bold, itd.) */
   white-space: pre-wrap; /* Ovo će omogućiti prelamanje teksta */
   overflow-wrap: break-word; /* Ovo će omogućiti prelamanje teksta po rečima */
-  background: #4c93ba;
+  background: #264040;
   color: #fff;
   border-radius: 30px;
   padding: 60px;
@@ -12,20 +12,20 @@
 }
 .button {
   font-family: "Vaša Font Familija", sans-serif;
-  background: #4c93ba;
+  background: #264040;
   color: #fff;
   font-size: 30px;
   padding: 10px;
   border-radius: 30px;
 }
 .button:hover{
-  background: #327396;
+  background: #396060;
 }
 .skor {
   font-family: "Vaša Font Familija", sans-serif;
   font-size: 25px; /* Veličina fonta */
   font-weight: bold; /* Težina fonta (normal, bold, itd.) */
-  background: #4c93ba;
+  background: #264040;
   color: #fff;
   border-radius: 10px;
   padding: 10px;
