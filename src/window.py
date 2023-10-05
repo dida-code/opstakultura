@@ -28,7 +28,6 @@ class OpstakulturaWindow(Gtk.ApplicationWindow):
     box_dugme = Gtk.Template.Child()
     zapocni = Gtk.Template.Child()
     skor = Gtk.Template.Child()
-    bod = Gtk.Template.Child()
     pitanja = Gtk.Template.Child()
     button1 = Gtk.Template.Child()
     button2 = Gtk.Template.Child()
@@ -41,7 +40,6 @@ class OpstakulturaWindow(Gtk.ApplicationWindow):
         
         
         self.skor.hide()
-        self.bod.hide()
         self.button1.hide()
         self.button2.hide()
         self.button3.hide()
@@ -52,7 +50,6 @@ class OpstakulturaWindow(Gtk.ApplicationWindow):
         self.box_dugme.get_style_context().add_class("box2")
         self.box.get_style_context().add_class("box")
         self.skor.get_style_context().add_class("skor")
-        self.bod.get_style_context().add_class("skor")
         self.zapocni.get_style_context().add_class("button")
         self.pitanja.get_style_context().add_class("pitanja")
         self.button1.get_style_context().add_class("button")
@@ -78,34 +75,32 @@ class OpstakulturaWindow(Gtk.ApplicationWindow):
         self.broj=-1
         self.poen=0
         self.pracenje_pitanja = 0
-        self.pitanja.set_text("Da li zelite da zapocnete novu igru?")
-        self.zapocni.set_label("Zapocni")
+        self.pitanja.set_text("Do you want to start a new game?")
+        self.zapocni.set_label("Start")
         random.shuffle(self.questions["pitanja"])
         self.zapocni.connect("clicked", lambda widget: self.prikazi_sledece_pitanje())
 
     def prikazi_sledece_pitanje(self):
+        self.skor.set_label(f"Score: {self.poen}")
         self.skor.show()
-        self.bod.show()
         self.button1.show()
         self.button2.show()
         self.button3.show()
         self.button4.show()
         self.zapocni.hide()
         self.broj = self.broj + 1
-        self.bod.set_label(str(self.poen))
+        print(self.pracenje_pitanja)
         if self.pracenje_pitanja < len(self.questions["pitanja"]):
             self.pracenje_pitanja += 1 
-            self.broj_pitanja.set_label(f'Pitanje {self.pracenje_pitanja}/{len(self.questions["pitanja"])}')
+            self.broj_pitanja.set_label(f'Question {self.pracenje_pitanja}/{len(self.questions["pitanja"])}')
         self.broj_pitanja.show()
 
         if self.broj < len(self.questions["pitanja"]):
-            #random.shuffle(self.questions["pitanja"])
             trenutni_indeks = self.broj
             trenutno_pitanje = self.questions["pitanja"][trenutni_indeks]["pitanje"]
             self.tacan_odgovor = self.questions["pitanja"][trenutni_indeks]["tacan_odgovor"]
             self.trenutni_odgovori = self.questions["pitanja"][trenutni_indeks]["odgovori"]
             random.shuffle(self.trenutni_odgovori)
-            print(self.tacan_odgovor)
             self.pitanja.set_text(trenutno_pitanje)
             self.button1.set_label(self.trenutni_odgovori[0])
             self.button2.set_label(self.trenutni_odgovori[1])
@@ -119,11 +114,44 @@ class OpstakulturaWindow(Gtk.ApplicationWindow):
             self.button4.connect("clicked", self.proveri_odgovor)
 
         else:
-            self.pitanja.set_text(f"Sva pitanja su završena!\n Tvoj skor je {self.poen}!")
+            self.pitanja.set_text(f"All questions completed!\n Your score is {self.poen}!\n Do you want to start a new game?")
+            self.zapocni.show()
+            random.shuffle(self.questions["pitanja"])
+            self.zapocni.connect("clicked", lambda widget: self.restart())
+            self.broj=-1
+            self.poen=0
+            self.pracenje_pitanja = 0
             self.button1.hide()
             self.button2.hide()
             self.button3.hide()
             self.button4.hide()
+
+    def restart(self):
+        pass
+
+    def nova (self):
+        if self.pracenje_pitanja == 0:
+            pass
+
+        else:
+            self.broj=0
+            self.poen=0
+            self.pracenje_pitanja = 1
+            self.skor.set_label(f"Score: {self.poen}")
+            self.broj_pitanja.set_label(f'Question {self.pracenje_pitanja}/{len(self.questions["pitanja"])}')
+            random.shuffle(self.questions["pitanja"])
+            trenutni_indeks = self.broj
+            trenutno_pitanje = self.questions["pitanja"][trenutni_indeks]["pitanje"]
+            self.tacan_odgovor = self.questions["pitanja"][trenutni_indeks]["tacan_odgovor"]
+            self.trenutni_odgovori = self.questions["pitanja"][trenutni_indeks]["odgovori"]
+            random.shuffle(self.trenutni_odgovori)
+            self.pitanja.set_text(trenutno_pitanje)
+            self.button1.set_label(self.trenutni_odgovori[0])
+            self.button2.set_label(self.trenutni_odgovori[1])
+            self.button3.set_label(self.trenutni_odgovori[2])
+            self.button4.set_label(self.trenutni_odgovori[3])
+
+
 
     def proveri_odgovor(self, widget):
         self.button1.disconnect_by_func(self.proveri_odgovor)
@@ -132,11 +160,9 @@ class OpstakulturaWindow(Gtk.ApplicationWindow):
         self.button4.disconnect_by_func(self.proveri_odgovor)
 
         if widget.get_label() == self.tacan_odgovor:
-            print("Tacno")
             self.poen +=1
-            print(self.poen)
 
         else:
-            print("Netacno")
+            pass
 
         self.prikazi_sledece_pitanje()
