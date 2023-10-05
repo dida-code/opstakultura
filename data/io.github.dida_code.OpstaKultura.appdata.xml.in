@@ -2,8 +2,37 @@
 <component type="desktop">
 	<id>io.github.dida_code.OpstaKultura.desktop</id>
 	<metadata_license>CC0-1.0</metadata_license>
-	<project_license>GPL-3.0-or-later</project_license>
+	<name>Opsta Kultura</name>
 	<description>
-	  <p>No description</p>
+	  <p>A simple knowledge quiz on general culture.</p>
 	</description>
+  <summary>Game, knowledge quiz</summary>
+  <developer_name>Dimitrije Kocic</developer_name>
+	<content_rating type="oars-1.0">
+  </content_rating>
+
+  <launchable type="desktop-id">io.github.dida_code.OpstaKultura.desktop</launchable>
+
+  <url type="homepage">https://github.com/dida-code/opstakultura</url>
+
+  <releases>
+  	<release version="1.0.0" date="2023-10-05">
+    		<description>
+			<p>First release</p>
+		</description>
+  	</release>
+  </releases>
+
+  <categories>
+    <category>Utility</category>
+  </categories>
+
+	<screenshots>
+    <screenshot type="default">
+      <image>https://raw.githubusercontent.com/dida-code/opstakultura/main/data/assets/Screenshot1.png</image>
+    </screenshot>
+    <screenshot type="default">
+      <image>https://raw.githubusercontent.com/dida-code/opstakultura/main/data/assets/Screenshot2.png</image>
+    </screenshot>
+	</screenshots>
 </component>
