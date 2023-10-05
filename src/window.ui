@@ -42,13 +42,8 @@
                 </object>
               </child>
               
-              <child>
-                <object class="GtkLabel" id="bod">
-                  <property name="label"></property>
-                  <property name="valign">center</property>
-                </object>
-              </child>
-              
+
+
               <child>
                 <object class="GtkLabel" id="broj_pitanja">
                 <property name="label">broj</property>
@@ -146,7 +141,15 @@
   <menu id="primary_menu">
     <section>
       <item>
-        <attribute name="label" translatable="yes">_About opstakultura</attribute>
+        <attribute name="label" translatable="yes">_New Game</attribute>
+        <attribute name="action">app.nova</attribute>
+      </item>
+      <item>
+        <attribute name="label" translatable="yes">_Close</attribute>
+        <attribute name="action">app.zatvori</attribute>
+      </item>
+      <item>
+        <attribute name="label" translatable="yes">_About Opsta Kultura</attribute>
         <attribute name="action">app.about</attribute>
       </item>
     </section>
