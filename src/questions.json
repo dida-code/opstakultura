@@ -1,364 +1,234 @@
 {
   "pitanja": [
     {
-      "pitanje": "Ko je napisao roman 'Ana Karenjina'?",
-      "odgovori": ["Fjodor Dostojevski", "Lav Tolstoj", "Gustav Flober", "Herman Hese"],
-      "tacan_odgovor": "Lav Tolstoj"
+      "pitanje": "Who wrote the novel 'Anna Karenina'?",
+      "odgovori": ["Fyodor Dostoevsky", "Leo Tolstoy", "Gustave Flaubert", "Herman Hesse"],
+      "tacan_odgovor": "Leo Tolstoy"
     },
     {
-      "pitanje": "Koja reka je najduža na svetu?",
-      "odgovori": ["Nil", "Amazon", "Misisipi", "Jangce"],
-      "tacan_odgovor": "Nil"
+      "pitanje": "Which river is the longest in the world?",
+      "odgovori": ["Nile", "Amazon", "Mississippi", "Yangtze"],
+      "tacan_odgovor": "Nile"
     },
     {
-      "pitanje": "Koja planeta se nalazi između Zemlje i Marsa?",
-      "odgovori": ["Venera", "Jupiter", "Saturn", "Uran"],
-      "tacan_odgovor": "Venera"
+      "pitanje": "What is the highest peak in the world?",
+      "odgovori": ["Matterhorn", "Mount Everest", "Kilimanjaro", "Mont Blanc"],
+      "tacan_odgovor": "Mount Everest"
     },
     {
-      "pitanje": "Koji je najviši vrh na svetu?",
-      "odgovori": ["Matterhorn", "Everest", "Kilimandžaro", "Mont Blanc"],
-      "tacan_odgovor": "Everest"
-    },
-    {
-      "pitanje": "Ko je autor 'Romea i Julije'?",
+      "pitanje": "Who is the author of 'Romeo and Juliet'?",
       "odgovori": ["Charles Dickens", "William Shakespeare", "Jane Austen", "Leo Tolstoy"],
       "tacan_odgovor": "William Shakespeare"
     },
     {
-      "pitanje": "Ko je slikar 'Mona Lize'?",
+      "pitanje": "Who is the painter of the 'Mona Lisa'?",
       "odgovori": ["Pablo Picasso", "Vincent van Gogh", "Leonardo da Vinci", "Michelangelo"],
       "tacan_odgovor": "Leonardo da Vinci"
     },
     {
-      "pitanje": "Koji gas čini najveći deo Zemljine atmosfere?",
-      "odgovori": ["Azot", "Ozon", "Vodonik", "Kiseonik"],
-      "tacan_odgovor": "Azot"
+      "pitanje": "Which gas makes up the majority of Earth's atmosphere?",
+      "odgovori": ["Nitrogen", "Ozone", "Hydrogen", "Oxygen"],
+      "tacan_odgovor": "Nitrogen"
     },
     {
-      "pitanje": "Koja je najveća pustinja na svetu?",
-      "odgovori": ["Sahara", "Gobi", "Atakama", "Kalahari"],
+      "pitanje": "What is the largest desert in the world?",
+      "odgovori": ["Sahara", "Gobi", "Atacama", "Kalahari"],
       "tacan_odgovor": "Sahara"
     },
     {
-      "pitanje": "Ko je napisao delo 'Rat i mir'?",
-      "odgovori": ["Fjodor Dostojevski", "Lev Tolstoj", "Gustav Flober", "Herman Hese"],
-      "tacan_odgovor": "Lev Tolstoj"
+      "pitanje": "Who wrote the work 'War and Peace'?",
+      "odgovori": ["Fyodor Dostoevsky", "Leo Tolstoy", "Gustave Flaubert", "Herman Hesse"],
+      "tacan_odgovor": "Leo Tolstoy"
     },
     {
-      "pitanje": "Ko je prvi čovek kročio na Mesec?",
+      "pitanje": "Who was the first person to set foot on the Moon?",
       "odgovori": ["Neil Armstrong", "Yuri Gagarin", "Buzz Aldrin", "Alan Shepard"],
       "tacan_odgovor": "Neil Armstrong"
     },
-    {
-    "pitanje": "Koja je glavna prestonica Francuske?",
-    "odgovori": [
-      "Rim",
-      "Berlin",
-      "London",
-      "Pariz"
-    ],
-    "tacan_odgovor": "Pariz"
-  },
   {
-    "pitanje": "Koje godine je Kolumbo otkrio Ameriku?",
-    "odgovori": [
-      "1492",
-      "1776",
-      "1620",
-      "1519"
-    ],
+    "pitanje": "In which year did Columbus discover America?",
+    "odgovori": ["1492","1776","1620","1519"],
     "tacan_odgovor": "1492"
   },
   {
-    "pitanje": "Koja planeta je poznata kao 'Crvena planeta'?",
-    "odgovori": [
-      "Merkur",
-      "Venera",
-      "Mars",
-      "Jupiter"
-    ],
+    "pitanje": "Which planet is known as the 'Red Planet'?",
+    "odgovori": ["Mercury", "Venus", "Mars", "Jupiter"],
     "tacan_odgovor": "Mars"
   },
   {
-    "pitanje": "Ko je bio osnivač Rimskog Carstva?",
-    "odgovori": [
-      "Julije Cezar",
-      "Marko Antonije",
-      "August",
-      "Neron"
-    ],
-    "tacan_odgovor": "August"
+    "pitanje": "Who was the founder of the Roman Empire?",
+    "odgovori": ["Julius Caesar", "Mark Antony", "Augustus", "Nero"],
+    "tacan_odgovor": "Augustus"
   },
   {
-    "pitanje": "Koji događaj je označio početak Prvog svetskog rata?",
-    "odgovori": [
-      "Atentat u Sarajevu",
-      "Bitka kod Verduna",
-      "Napad na Pearl Harbor",
-      "Pad Berlinskog zida"
-    ],
-    "tacan_odgovor": "Atentat u Sarajevu"
+    "pitanje": "Which event marked the beginning of World War I?",
+    "odgovori": ["Assassination in Sarajevo", "Battle of Verdun", "Attack on Pearl Harbor", "Fall of the Berlin Wall"],
+    "tacan_odgovor": "Assassination in Sarajevo"
   },
   {
-    "pitanje": "Ko je bio osnivač Osmanskog Carstva?",
-    "odgovori": [
-      "Sulejman Veličanstveni",
-      "Mehmed Osvajač",
-      "Osman Gazi",
-      "Murat I"
-    ],
+    "pitanje": "Who was the founder of the Ottoman Empire?",
+    "odgovori": ["Suleiman the Magnificent", "Mehmed the Conqueror", "Osman Gazi", "Murad I"],
     "tacan_odgovor": "Osman Gazi"
   },
   {
-    "pitanje": "Ko je napisao Deklaraciju nezavisnosti Sjedinjenih Američkih Država?",
-    "odgovori": [
-      "George Washington",
-      "Benjamin Franklin",
-      "Thomas Jefferson",
-      "John Adams"
-    ],
+    "pitanje": "Who wrote the Declaration of Independence of the United States?",
+    "odgovori": ["George Washington", "Benjamin Franklin", "Thomas Jefferson", "John Adams"],
     "tacan_odgovor": "Thomas Jefferson"
   },
   {
-    "pitanje": "Koja godina označava početak Velike depresije u SAD-u?",
-    "odgovori": [
-      "1929",
-      "1939",
-      "1945",
-      "1917"
-    ],
+    "pitanje": "Which year marks the beginning of the Great Depression in the USA?",
+    "odgovori": ["1929","1939","1945","1917"],
     "tacan_odgovor": "1929"
   },
   {
-    "pitanje": "Koja osoba je bila vodeća figura u Južnoafričkom pokretu protiv aparthejda?",
-    "odgovori": [
-      "Nelson Mandela",
-      "Winston Churchill",
-      "Mahatma Gandhi",
-      "Mikhail Gorbachev"
-    ],
+    "pitanje": "Which person was a leading figure in the South African anti-apartheid movement?",
+    "odgovori": ["Nelson Mandela", "Winston Churchill", "Mahatma Gandhi", "Mikhail Gorbachev"],
     "tacan_odgovor": "Nelson Mandela"
   },
   {
-    "pitanje": "Ko je bio vladar Rusije tokom Oktobarske revolucije 1917. godine?",
-    "odgovori": [
-      "Nikola II Romanov",
-      "Lenjin",
-      "Staljin",
-      "Kerenski"
-    ],
-    "tacan_odgovor": "Nikola II Romanov"
+    "pitanje": "Who was the ruler of Russia during the October Revolution of 1917?",
+    "odgovori": ["Nicholas II Romanov", "Lenin", "Stalin", "Kerensky"],
+    "tacan_odgovor": "Nicholas II Romanov"
   },
   {
-    "pitanje": "Ko je bio lider Kine tokom Kulturne revolucije?",
-    "odgovori": [
-      "Sun Yat-sen",
-      "Mao Zedong",
-      "Chiang Kai-shek",
-      "Deng Xiaoping"
-    ],
+    "pitanje": "Who was the leader of China during the Cultural Revolution?",
+    "odgovori": ["Sun Yat-sen", "Mao Zedong", "Chiang Kai-shek", "Deng Xiaoping"],
     "tacan_odgovor": "Mao Zedong"
   },
   {
-    "pitanje": "Koji drevni egipatski vladar je poznat po izgradnji Velike piramide u Gizi?",
-    "odgovori": [
-      "Ramses II",
-      "Hatshepsut",
-      "Tutankamon",
-      "Keops"
-    ],
-    "tacan_odgovor": "Keops"
+    "pitanje": "Which ancient Egyptian ruler is known for building the Great Pyramid at Giza?",
+    "odgovori": ["Ramses II", "Hatshepsut", "Tutankhamun", "Khufu"],
+    "tacan_odgovor": "Khufu"
   },
   {
-    "pitanje": "Koji rat je poznat kao 'Rat za nezavisnost SAD-a'?",
-    "odgovori": [
-      "Građanski rat",
-      "Prvi svetski rat",
-      "Rat za nezavisnost",
-      "Rat protiv terorizma"
-    ],
-    "tacan_odgovor": "Rat za nezavisnost"
+    "pitanje": "Which war is known as the 'American War of Independence'?",
+    "odgovori": ["Civil War", "World War I", "The American Revolutionary War", "War on Terror"],
+    "tacan_odgovor": "The American Revolutionary War"
   },
   {
-    "pitanje": "Ko je najpoznatiji fudbaler svih vremena?",
-    "odgovori": [
-      "Lionel Messi",
-      "Cristiano Ronaldo",
-      "Pelé",
-      "Diego Maradona"
-    ],
-    "tacan_odgovor": "Pelé"
+    "pitanje": "Which country hosted the first modern Summer Olympic Games in 1896?",
+    "odgovori": ["USA", "Greece", "France", "Italy"],
+    "tacan_odgovor": "Greece"
   },
   {
-    "pitanje": "Koja zemlja je domaćin prvog modernog letnjeg Olimpijskog igara 1896. godine?",
-    "odgovori": [
-      "SAD",
-      "Grčka",
-      "Francuska",
-      "Italija"
-    ],
-    "tacan_odgovor": "Grčka"
+    "pitanje": "Who has won the most Grand Slam tennis tournaments in the men's category?",
+    "odgovori": ["Roger Federer", "Rafael Nadal", "Pete Sampras", "Novak Djokovic"],
+    "tacan_odgovor": "Novak Djokovic"
   },
   {
-    "pitanje": "Ko je osvojio najviše Grend slem teniskih turnira u muškoj kategoriji?",
-    "odgovori": [
-      "Roger Federer",
-      "Rafael Nadal",
-      "Pete Sampras",
-      "Novak Đoković"
-    ],
-    "tacan_odgovor": "Novak Đoković"
-  },
-  {
-    "pitanje": "Koji sportisti se takmiče u Le Mans trci?",
-    "odgovori": [
-      "Formula 1 vozači",
-      "Biciklisti",
-      "Maratonci",
-      "Automobilisti"
-    ],
-    "tacan_odgovor": "Automobilisti"
-  },
-  {
-    "pitanje": "Koliko igrača je obično u timu na fudbalskom terenu?",
-    "odgovori": [
-      "9",
-      "10",
-      "11",
-      "12"
-    ],
+    "pitanje": "How many players are typically on a football (soccer) team on the field?",
+    "odgovori": ["9","10","11","12"],
     "tacan_odgovor": "11"
   },
   {
-    "pitanje": "Ko je najuspešniji vozač u istoriji Formule 1?",
-    "odgovori": [
-      "Michael Schumacher",
-      "Lewis Hamilton",
-      "Ayrton Senna",
-      "Niki Lauda"
-    ],
+    "pitanje": "Who is the most successful Formula 1 driver in history?",
+    "odgovori": ["Michael Schumacher", "Lewis Hamilton", "Ayrton Senna", "Niki Lauda"],
     "tacan_odgovor": "Lewis Hamilton"
   },
   {
-    "pitanje": "Ko je najmlađi osvajač Zlatne lopte (Ballon d'Or) u fudbalu?",
-    "odgovori": [
-      "Lionel Messi",
-      "Cristiano Ronaldo",
-      "Pelé",
-      "Diego Maradona"
-    ],
-    "tacan_odgovor": "Lionel Messi"
-  },
-  {
-    "pitanje": "Koji tim je najviše puta osvojio Super Bowl u NFL-u?",
-    "odgovori": [
-      "Dallas Cowboys",
-      "New England Patriots",
-      "San Francisco 49ers",
-      "Pittsburgh Steelers"
-    ],
+    "pitanje": "Which team has won the Super Bowl the most times in the NFL?",
+    "odgovori": ["Dallas Cowboys","New England Patriots","San Francisco 49ers","Pittsburgh Steelers"],
     "tacan_odgovor": "Pittsburgh Steelers"
   },
   {
-    "pitanje": "Ko je najuspešniji olimpijski plivač svih vremena?",
-    "odgovori": [
-      "Michael Phelps",
-      "Ian Thorpe",
-      "Mark Spitz",
-      "Ryan Lochte"
-    ],
+    "pitanje": "Who is the most successful Olympic swimmer of all time?",
+    "odgovori": ["Michael Phelps", "Ian Thorpe", "Mark Spitz", "Ryan Lochte"],
     "tacan_odgovor": "Michael Phelps"
   },
   {
-    "pitanje": "Ko je osvojio najviše uzastopnih Vimbldon turnira u ženskoj konkurenciji?",
-    "odgovori": [
-      "Serena Williams",
-      "Martina Navratilova",
-      "Steffi Graf",
-      "Margaret Court"
-    ],
-    "tacan_odgovor": "Martina Navratilova"
-  },
-  {
-    "pitanje": "Koja je najveća planina na svetu?",
-    "odgovori": [
-      "Himalaji",
-      "Andi",
-      "Alpi",
-      "Kilimandžaro"
-    ],
-    "tacan_odgovor": "Himalaji"
-  },
-  {
-    "pitanje": "Koja je najveća ostrvska država na svetu?",
-    "odgovori": [
-      "Indonezija",
-      "Japan",
-      "Filipini",
-      "Kuba"
-    ],
-    "tacan_odgovor": "Indonezija"
-  },
-  {
-    "pitanje": "Koja zemlja se nalazi na obali Maroka i Španije?",
-    "odgovori": [
-      "Portugal",
-      "Francuska",
-      "Alžir",
-      "Gibraltar"
-    ],
-    "tacan_odgovor": "Gibraltar"
-  },
-  {
-    "pitanje": "Koja zemlja se prostire na dva kontinenta - Aziji i Evropi?",
-    "odgovori": [
-      "Rusija",
-      "Turska",
-      "Grčka",
-      "Egipat"
-    ],
-    "tacan_odgovor": "Rusija"
-  },
-  {
-    "pitanje": "Koja je najmanja kontinentalna država na svetu?",
-    "odgovori": [
-      "Monako",
-      "Vatikan",
-      "San Marino",
-      "Andora"
-    ],
-    "tacan_odgovor": "Vatikan"
-  },
-  {
-    "pitanje": "Koji je najveći jezero na svetu po površini?",
-    "odgovori": [
-      "Kaspijsko jezero",
-      "Bajkalsko jezero",
-      "Superior",
-      "Crveno more"
-    ],
-    "tacan_odgovor": "Kaspijsko jezero"
-  },
-  {
-    "pitanje": "Koja zemlja je poznata kao 'Zemlja izlazećeg sunca'?",
-    "odgovori": [
-      "Kina",
-      "Indija",
-      "Japan",
-      "Australija"
-    ],
-    "tacan_odgovor": "Japan"
-  },
-  {
-    "pitanje": "Koja država ima najviše jezera na svetu?",
-    "odgovori": [
-      "Kanada",
-      "SAD",
-      "Rusija",
-      "Brazil"
-    ],
-    "tacan_odgovor": "Kanada"
-  }
+      "pitanje": "Who has won the most consecutive Wimbledon tournaments in the women's competition?",
+      "odgovori": ["Serena Williams", "Martina Navratilova", "Steffi Graf", "Margaret Court"],
+      "tacan_odgovor": "Martina Navratilova"
+    },
+    {
+      "pitanje": "What is the tallest mountain in the world?",
+      "odgovori": ["Himalayas", "Andes", "Alps", "Kilimanjaro"],
+      "tacan_odgovor": "Himalayas"
+    },
+    {
+      "pitanje": "Which is the largest island nation in the world?",
+      "odgovori": ["Indonesia", "Japan", "Philippines", "Cuba"],
+      "tacan_odgovor": "Indonesia"
+    },
+    {
+      "pitanje": "Which country is located on the coast of Morocco and Spain?",
+      "odgovori": ["Portugal", "France", "Algeria", "Gibraltar"],
+      "tacan_odgovor": "Gibraltar"
+    },
+    {
+      "pitanje": "Which country spans two continents - Asia and Europe?",
+      "odgovori": ["Russia", "Estonia", "Greece", "Egypt"],
+      "tacan_odgovor": "Russia"
+    },
+    {
+      "pitanje": "What is the smallest continental country in the world?",
+      "odgovori": ["Monaco", "Vatican", "San Marino", "Andorra"],
+      "tacan_odgovor": "Vatican"
+    },
+    {
+      "pitanje": "Which is the largest lake in the world by surface area?",
+      "odgovori": ["Caspian Sea", "Lake Baikal", "Lake Superior", "Red Sea"],
+      "tacan_odgovor": "Caspian Sea"
+    },
+    {
+      "pitanje": "Which country is known as the 'Land of the Rising Sun'?",
+      "odgovori": ["China", "India", "Japan", "Australia"],
+      "tacan_odgovor": "Japan"
+    },
+    {
+      "pitanje": "Which country has the most lakes in the world?",
+      "odgovori": ["Canada", "USA", "Russia", "Brazil"],
+      "tacan_odgovor": "Canada"
+    },
+    {
+      "pitanje": "What is the capital city of Cambodia?",
+      "odgovori": ["Phnom Penh", "Siem Reap", "Battambang", "Sihanoukville"],
+      "tacan_odgovor": "Phnom Penh"
+    },
+    {
+      "pitanje": "What is the capital city of Argentina?",
+      "odgovori": ["Buenos Aires", "Cordoba", "Rosario", "Mendoza"],
+      "tacan_odgovor": "Buenos Aires"
+    },
+    {
+      "pitanje": "What is the capital city of Nigeria?",
+      "odgovori": ["Lagos", "Abuja", "Kano", "Ibadan"],
+      "tacan_odgovor": "Abuja"
+    },
+    {
+      "pitanje": "What is the capital city of Sweden?",
+      "odgovori": ["Stockholm", "Gothenburg", "Malmö", "Uppsala"],
+      "tacan_odgovor": "Stockholm"
+    },
+    {
+      "pitanje": "What is the capital city of Switzerland?",
+      "odgovori": ["Zurich", "Geneva", "Bern", "Basel"],
+      "tacan_odgovor": "Bern"
+    },
+    {
+      "pitanje": "What is the capital city of Kenya?",
+      "odgovori": ["Nairobi", "Mombasa", "Kisumu", "Nakuru"],
+      "tacan_odgovor": "Nairobi"
+    },
+    {
+      "pitanje": "What is the capital city of Sri Lanka?",
+      "odgovori": ["Colombo", "Kandy", "Galle", "Jaffna"],
+      "tacan_odgovor": "Colombo"
+    },
+    {
+      "pitanje": "What is the capital city of Lebanon?",
+      "odgovori": ["Beirut", "Tripoli", "Sidon", "Tyre"],
+      "tacan_odgovor": "Beirut"
+    },
+    {
+      "pitanje": "What is the capital city of Morocco?",
+      "odgovori": ["Casablanca", "Marrakech", "Rabat", "Fes"],
+      "tacan_odgovor": "Rabat"
+    },
+    {
+      "pitanje": "What is the capital city of Thailand?",
+      "odgovori": ["Bangkok", "Chiang Mai", "Phuket", "Pattaya"],
+      "tacan_odgovor": "Bangkok"
+    }
   ]
 }
