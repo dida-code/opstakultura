@@ -31,7 +31,7 @@
       "tacan_odgovor": "Nitrogen"
     },
     {
-      "pitanje": "What is the largest desert in the world?",
+      "pitanje": "What is the largest hot desert in the world?",
       "odgovori": ["Sahara", "Gobi", "Atacama", "Kalahari"],
       "tacan_odgovor": "Sahara"
     },
@@ -127,8 +127,8 @@
   },
   {
     "pitanje": "Which team has won the Super Bowl the most times in the NFL?",
-    "odgovori": ["Dallas Cowboys","New England Patriots","San Francisco 49ers","Pittsburgh Steelers"],
-    "tacan_odgovor": "Pittsburgh Steelers"
+    "odgovori": ["Dallas Cowboys","New England Patriots","San Francisco 49ers","Kansas City Chiefs"],
+    "tacan_odgovor": "New England Patriots"
   },
   {
     "pitanje": "Who is the most successful Olympic swimmer of all time?",
