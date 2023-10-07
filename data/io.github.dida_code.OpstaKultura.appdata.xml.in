@@ -17,7 +17,7 @@
   <url type="homepage">https://github.com/dida-code/opstakultura</url>
 
   <releases>
-  	<release version="1.0.0" date="2023-10-05">
+  	<release version="1.1.1" date="2023-10-07">
     		<description>
 			<p>First release</p>
 		</description>
@@ -30,10 +30,10 @@
 
 	<screenshots>
     <screenshot type="default">
-      <image>https://raw.githubusercontent.com/dida-code/opstakultura/v1.1.0/data/assets/Screenshot1.png</image>
+      <image>https://raw.githubusercontent.com/dida-code/opstakultura/v1.1.1/data/assets/Screenshot1.png</image>
     </screenshot>
     <screenshot type="default">
-      <image>https:https://raw.githubusercontent.com/dida-code/opstakultura/v1.1.0/data/assets/Screenshot2.png</image>
+      <image>https:https://raw.githubusercontent.com/dida-code/opstakultura/v1.1.1/data/assets/Screenshot2.png</image>
     </screenshot>
 	</screenshots>
 </component>
