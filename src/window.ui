@@ -4,6 +4,7 @@
   <!-- interface-name window.ui -->
   <requires lib="gtk" version="4.6"/>
   <template class="OpstakulturaWindow" parent="GtkApplicationWindow">
+    <property name="title">Opsta Kultura</property>
     <property name="show-menubar">True</property>
     <property name="default-width">1000</property>
     <property name="default-height">700</property>
@@ -37,11 +38,22 @@
               
               <child>
                 <object class="GtkLabel" id="skor">
-                  <property name="label">Skor:</property>
+                  <property name="label"></property>
                   <property name="valign">center</property>
+                  <property name="halign">start</property>
+                  <property name="hexpand">true</property>
                 </object>
               </child>
               
+              <child>
+                <object class="GtkLabel" id="tq">
+                  <property name="label"></property>
+                  <property name="justify">center</property>
+                  <property name="valign">center</property>
+                  <property name="halign">center</property>
+                  <property name="hexpand">true</property>
+                </object>
+              </child>
 
 
               <child>
