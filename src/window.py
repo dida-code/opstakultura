@@ -26,6 +26,7 @@ class OpstakulturaWindow(Gtk.ApplicationWindow):
     
     box = Gtk.Template.Child()
     box_dugme = Gtk.Template.Child()
+    tq = Gtk.Template.Child()
     zapocni = Gtk.Template.Child()
     skor = Gtk.Template.Child()
     pitanja = Gtk.Template.Child()
@@ -45,6 +46,7 @@ class OpstakulturaWindow(Gtk.ApplicationWindow):
         self.button3.hide()
         self.button4.hide()
         self.broj_pitanja.hide()
+        self.tq.hide()
         
         
         self.box_dugme.get_style_context().add_class("box2")
@@ -57,6 +59,7 @@ class OpstakulturaWindow(Gtk.ApplicationWindow):
         self.button3.get_style_context().add_class("button")
         self.button4.get_style_context().add_class("button")
         self.broj_pitanja.get_style_context().add_class("skor")
+        self.tq.get_style_context().add_class("skor")
         
         
         css_provider = Gtk.CssProvider()
@@ -81,7 +84,10 @@ class OpstakulturaWindow(Gtk.ApplicationWindow):
         self.zapocni.connect("clicked", lambda widget: self.prikazi_sledece_pitanje())
 
     def prikazi_sledece_pitanje(self):
+        ukupno_pitanja=len(self.questions["pitanja"])
+        self.tq.set_label(f"Total Questions\n{ukupno_pitanja}")
         self.skor.set_label(f"Score: {self.poen}")
+        self.tq.show()
         self.skor.show()
         self.button1.show()
         self.button2.show()
@@ -90,12 +96,12 @@ class OpstakulturaWindow(Gtk.ApplicationWindow):
         self.zapocni.hide()
         self.broj = self.broj + 1
         print(self.pracenje_pitanja)
-        if self.pracenje_pitanja < len(self.questions["pitanja"]):
+        if self.pracenje_pitanja < 40:
             self.pracenje_pitanja += 1 
-            self.broj_pitanja.set_label(f'Question {self.pracenje_pitanja}/{len(self.questions["pitanja"])}')
+            self.broj_pitanja.set_label(f'Question {self.pracenje_pitanja}/40')
         self.broj_pitanja.show()
 
-        if self.broj < len(self.questions["pitanja"]):
+        if self.broj < 40:
             trenutni_indeks = self.broj
             trenutno_pitanje = self.questions["pitanja"][trenutni_indeks]["pitanje"]
             self.tacan_odgovor = self.questions["pitanja"][trenutni_indeks]["tacan_odgovor"]
