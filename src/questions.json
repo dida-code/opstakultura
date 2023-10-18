@@ -781,24 +781,724 @@
             "tacan_odgovor": "Harry Potter"
         },
         {
-    "pitanje": "Which TV series is often referred to as the 'mother of all dragons'?",
-    "odgovori": [
-        "Breaking Bad",
-        "Game of Thrones",
-        "Stranger Things",
-        "The Walking Dead"
-    ],
-    "tacan_odgovor": "Game of Thrones"
-},
-{
-    "pitanje": "Which TV series features a character named Walter White, who becomes a high school chemistry teacher turned methamphetamine manufacturer?",
-    "odgovori": [
-        "The Sopranos",
-        "Narcos",
-        "Sherlock",
-        "Breaking Bad"
-    ],
-    "tacan_odgovor": "Breaking Bad"
-}
+            "pitanje": "Which TV series is often referred to as the 'mother of all dragons'?",
+            "odgovori": [
+                "Breaking Bad",
+                "Game of Thrones",
+                "Stranger Things",
+                "The Walking Dead"
+            ],
+            "tacan_odgovor": "Game of Thrones"
+        },
+        {
+            "pitanje": "Which TV series features a character named Walter White, who becomes a high school chemistry teacher turned methamphetamine manufacturer?",
+            "odgovori": [
+                "The Sopranos",
+                "Narcos",
+                "Sherlock",
+                "Breaking Bad"
+            ],
+            "tacan_odgovor": "Breaking Bad"
+        },
+        {
+            "pitanje": "Who is the king of the Greek gods?",
+            "odgovori": [
+                "Poseidon",
+                "Hades",
+                "Ares",
+                "Zeus"
+            ],
+            "tacan_odgovor": "Zeus"
+        },
+        {
+            "pitanje": "Which Greek hero is known for his strength and the Twelve Labors?",
+            "odgovori": [
+                "Perseus",
+                "Achilles",
+                "Heracles",
+                "Odysseus"
+            ],
+            "tacan_odgovor": "Heracles"
+        },
+        {
+            "pitanje": "What is the name of the winged horse in Greek mythology?",
+            "odgovori": [
+                "Pegasus",
+                "Centaur",
+                "Minotaur",
+                "Griffin"
+            ],
+            "tacan_odgovor": "Pegasus"
+        },
+        {
+            "pitanje": "Who is the goddess of wisdom and warfare in Greek mythology?",
+            "odgovori": [
+                "Athena",
+                "Aphrodite",
+                "Hera",
+                "Demeter"
+            ],
+            "tacan_odgovor": "Athena"
+        },
+        {
+            "pitanje": "Which monster had snakes for hair and could turn people to stone with her gaze?",
+            "odgovori": [
+                "Medusa",
+                "Cerberus",
+                "Chimera",
+                "Sirens"
+            ],
+            "tacan_odgovor": "Medusa"
+        },
+        {
+            "pitanje": "What is the name of the Greek god of the sea?",
+            "odgovori": [
+                "Hermes",
+                "Ares",
+                "Poseidon",
+                "Dionysus"
+            ],
+            "tacan_odgovor": "Poseidon"
+        },
+        {
+            "pitanje": "Who is the goddess of love and beauty in Greek mythology?",
+            "odgovori": [
+                "Artemis",
+                "Aphrodite",
+                "Demeter",
+                "Hestia"
+            ],
+            "tacan_odgovor": "Aphrodite"
+        },
+        {
+            "pitanje": "What is the name of the ferryman who carries souls across the River Styx to the Underworld?",
+            "odgovori": [
+                "Charon",
+                "Cronus",
+                "Chaos",
+                "Hades"
+            ],
+            "tacan_odgovor": "Charon"
+        },
+        {
+            "pitanje": "Who is the Titan who stole fire from the gods and gave it to humanity?",
+            "odgovori": [
+                "Prometheus",
+                "Atlas",
+                "Epimetheus",
+                "Hyperion"
+            ],
+            "tacan_odgovor": "Prometheus"
+        },
+        {
+            "pitanje": "What is the name of the three-headed dog guarding the entrance to the Underworld?",
+            "odgovori": [
+                "Cerberus",
+                "Orthrus",
+                "Echidna",
+                "Hydra"
+            ],
+            "tacan_odgovor": "Cerberus"
+        },
+        {
+            "pitanje": "Who is the father of all the gods in Norse mythology?",
+            "odgovori": [
+                "Thor",
+                "Odin",
+                "Loki",
+                "Freyr"
+            ],
+            "tacan_odgovor": "Odin"
+        },
+        {
+            "pitanje": "Which powerful weapon does Thor wield in Norse mythology?",
+            "odgovori": [
+                "Gungnir",
+                "Mjölnir",
+                "Fenrir",
+                "Yggdrasil"
+            ],
+            "tacan_odgovor": "Mjölnir"
+        },
+        {
+            "pitanje": "What is the name of the serpent that encircles the world in Norse mythology?",
+            "odgovori": [
+                "Fafnir",
+                "Jormungandr",
+                "Nidhogg",
+                "Sleipnir"
+            ],
+            "tacan_odgovor": "Jormungandr"
+        },
+        {
+            "pitanje": "Who is the trickster god known for causing mischief in Norse mythology?",
+            "odgovori": [
+                "Heimdall",
+                "Freyr",
+                "Loki",
+                "Balder"
+            ],
+            "tacan_odgovor": "Loki"
+        },
+        {
+            "pitanje": "What is the name of the great wolf in Norse mythology that will devour the sun during Ragnarök?",
+            "odgovori": [
+                "Garm",
+                "Hati",
+                "Fenrir",
+                "Surt"
+            ],
+            "tacan_odgovor": "Fenrir"
+        },
+        {
+            "pitanje": "What is the name of the great hall in Asgard where fallen warriors go in the afterlife?",
+            "odgovori": [
+                "Valhalla",
+                "Alfheim",
+                "Helheim",
+                "Midgard"
+            ],
+            "tacan_odgovor": "Valhalla"
+        },
+        {
+            "pitanje": "Who is the queen of the underworld in Norse mythology?",
+            "odgovori": [
+                "Skadi",
+                "Hel",
+                "Frigg",
+                "Sif"
+            ],
+            "tacan_odgovor": "Hel"
+        },
+        {
+            "pitanje": "What is the name of the horse with eight legs ridden by Odin?",
+            "odgovori": [
+                "Sleipnir",
+                "Hrimfaxi",
+                "Gullfaxi",
+                "Skinfaxi"
+            ],
+            "tacan_odgovor": "Sleipnir"
+        },
+        {
+            "pitanje": "Which dwarf forged the powerful ring known as Draupnir?",
+            "odgovori": [
+                "Andvari",
+                "Brokkr",
+                "Fafnir",
+                "Sindri"
+            ],
+            "tacan_odgovor": "Sindri"
+        },
+        {
+            "pitanje": "What is the name of the world tree in Norse mythology that connects the nine realms?",
+            "odgovori": [
+                "Igdrasil",
+                "Yggdrasil",
+                "Midgardsormr",
+                "Mimisbrunnr"
+            ],
+            "tacan_odgovor": "Yggdrasil"
+        },
+        {
+            "pitanje": "In which city is the Golden Gate Bridge located?",
+            "odgovori": [
+                "Houston",
+                "Washington",
+                "New York",
+                "San Francisco"
+            ],
+            "tacan_odgovor": "San Francisco"
+        },
+        {
+            "pitanje": "In which country was Adolf Hitler born?",
+            "odgovori": [
+                "Poland",
+                "Germany",
+                "Austria",
+                "Italy"
+            ],
+            "tacan_odgovor": "Austria"
+        },
+        {
+            "pitanje": "In the territory of which modern-day country was the Auschwitz concentration camp located?",
+            "odgovori": [
+                "Italy",
+                "Austria",
+                "Czech Republic",
+                "Poland"
+            ],
+            "tacan_odgovor": "Poland"
+        },
+        {
+            "pitanje": "Who is the sun god in Egyptian mythology?",
+            "odgovori": [
+                "Osiris",
+                "Ra",
+                "Phoenix",
+                "Kek"
+            ],
+            "tacan_odgovor": "Ra"
+        },
+        {
+            "pitanje": "Acrophobia is the fear of:",
+            "odgovori": [
+                "Flying",
+                "Heights",
+                "Thoughts",
+                "Streets and intersections"
+            ],
+            "tacan_odgovor": "Heights"
+        },
+        {
+            "pitanje": "Gothic refers to:",
+            "odgovori": [
+                "A type of wind instrument",
+                "A type of brass instrument",
+                "A geometric shape",
+                "An art movement"
+            ],
+            "tacan_odgovor": "An art movement"
+        },
+        {
+            "pitanje": "The author of the work 'Moby-Dick' is:",
+            "odgovori": [
+                "Ernest Hemingway",
+                "Mark Twain",
+                "Herman Melville",
+                "Charles Dickens"
+            ],
+            "tacan_odgovor": "Herman Melville"
+        },
+        {
+            "pitanje": "The Louvre Museum is located in:",
+            "odgovori": [
+                "Paris",
+                "Saint Petersburg",
+                "Cannes",
+                "Rome"
+            ],
+            "tacan_odgovor": "Paris"
+        },
+        {
+            "pitanje": "Hamlet was a prince from:",
+            "odgovori": [
+                "Scotland",
+                "Denmark",
+                "England",
+                "Belgium"
+            ],
+            "tacan_odgovor": "Denmark"
+        },
+        {
+            "pitanje": "The theory of relativity was discovered by:",
+            "odgovori": [
+                "Isaac Newton",
+                "Nikola Tesla",
+                "Albert Einstein",
+                "Thomas Young"
+            ],
+            "tacan_odgovor": "Albert Einstein"
+        },
+        {
+            "pitanje": "V.I.P. is an abbreviation for:",
+            "odgovori": [
+                "A very important person",
+                "See and extend",
+                "Return or pay",
+                "A very dangerous person"
+            ],
+            "tacan_odgovor": "A very important person"
+        },
+        {
+            "pitanje": "The increase in the general level of prices is called:",
+            "odgovori": [
+                "Deflation",
+                "Devaluation",
+                "Inflation",
+                "Profit"
+            ],
+            "tacan_odgovor": "Inflation"
+        },
+        {
+            "pitanje": "Origami is:",
+            "odgovori": [
+                "A spice in the kitchen",
+                "A type of Japanese martial art",
+                "A type of Japanese poem",
+                "The art of paper folding"
+            ],
+            "tacan_odgovor": "The art of paper folding"
+        },
+        {
+            "pitanje": "The science of coats of arms is called:",
+            "odgovori": [
+                "Numismatics",
+                "Philology",
+                "Heraldry",
+                "Genealogy"
+            ],
+            "tacan_odgovor": "Heraldry"
+        },
+        {
+            "pitanje": "Hercule Poirot is a creation of:",
+            "odgovori": [
+                "Sherlock Holmes",
+                "Agatha Christie",
+                "Emily Brontë",
+                "Jules Verne"
+            ],
+            "tacan_odgovor": "Agatha Christie"
+        },
+        {
+            "pitanje": "The City of Lights is a nickname for:",
+            "odgovori": [
+                "Paris",
+                "Rome",
+                "London",
+                "Munich"
+            ],
+            "tacan_odgovor": "Paris"
+        },
+        {
+            "pitanje": "The symbol of immortality is the bird:",
+            "odgovori": [
+                "Eagle",
+                "Owl",
+                "Archaeopteryx",
+                "Phoenix"
+            ],
+            "tacan_odgovor": "Phoenix"
+        },
+        {
+            "pitanje": "Byzantine Empire is another name for:",
+            "odgovori": [
+                "Persian Empire",
+                "Eastern Roman Empire",
+                "Egyptian Empire",
+                "Mongol Empire"
+            ],
+            "tacan_odgovor": "Eastern Roman Empire"
+        },
+        {
+            "pitanje": "The maple leaf is a symbol of:",
+            "odgovori": [
+                "Canada",
+                "Netherlands",
+                "Switzerland",
+                "Sweden"
+            ],
+            "tacan_odgovor": "Canada"
+        },
+        {
+            "pitanje": "Tsargrad is an old name for:",
+            "odgovori": [
+                "Istanbul",
+                "Belgrade",
+                "Vienna",
+                "Athens"
+            ],
+            "tacan_odgovor": "Istanbul"
+        },
+        {
+            "pitanje": "Bucephalus was the horse of:",
+            "odgovori": [
+                "Caesar",
+                "Mark Antony",
+                "Attila",
+                "Alexander the Great"
+            ],
+            "tacan_odgovor": "Alexander the Great"
+        },
+        {
+            "pitanje": "A wine connoisseur is a(n):",
+            "odgovori": [
+                "Ethnologist",
+                "Hedonist",
+                "Ornithologist",
+                "Oenologist"
+            ],
+            "tacan_odgovor": "Oenologist"
+        },
+        {
+            "pitanje": "Who uttered 'Veni, vidi, vici'?",
+            "odgovori": [
+                "Caligula",
+                "Mark Antony",
+                "Alexander the Great",
+                "Julius Caesar"
+            ],
+            "tacan_odgovor": "Julius Caesar"
+        },
+        {
+            "pitanje": "The abbreviation for the International Basketball Federation is:",
+            "odgovori": [
+                "FIFA",
+                "FINA",
+                "FIDE",
+                "FIBA"
+            ],
+            "tacan_odgovor": "FIBA"
+        },
+        {
+            "pitanje": "The organization involved in international police cooperation is:",
+            "odgovori": [
+                "FBI",
+                "CIA",
+                "BIA",
+                "INTERPOL"
+            ],
+            "tacan_odgovor": "INTERPOL"
+        },
+        {
+            "pitanje": "Oktoberfest is a festival held in:",
+            "odgovori": [
+                "Rome",
+                "Munich",
+                "Prague",
+                "Budapest"
+            ],
+            "tacan_odgovor": "Munich"
+        },
+        {
+            "pitanje": "Which Arabic numeral corresponds to the Roman numeral D?",
+            "odgovori": [
+                "100",
+                "1000",
+                "5000",
+                "500"
+            ],
+            "tacan_odgovor": "500"
+        },
+        {
+            "pitanje": "How many continents is planet Earth divided into?",
+            "odgovori": [
+                "Four",
+                "Five",
+                "Six",
+                "Seven"
+            ],
+            "tacan_odgovor": "Seven"
+        },
+        {
+            "pitanje": "Dynamite was invented by:",
+            "odgovori": [
+                "Alfred Nobel",
+                "Albert Einstein",
+                "James Watt",
+                "Nikola Tesla"
+            ],
+            "tacan_odgovor": "Alfred Nobel"
+        },
+        {
+            "pitanje": "The unit of measurement for electric potential and voltage is:",
+            "odgovori": [
+                "Watt",
+                "Volt",
+                "Ampere",
+                "Ohm"
+            ],
+            "tacan_odgovor": "Volt"
+        },
+        {
+            "pitanje": "The unit of measurement for radioactivity is:",
+            "odgovori": [
+                "Coulomb",
+                "Farad",
+                "Hertz",
+                "Becquerel"
+            ],
+            "tacan_odgovor": "becquerel"
+        },
+        {
+            "pitanje": "The chemical symbol Ca represents which chemical element?",
+            "odgovori": [
+                "Cesium",
+                "Cobalt",
+                "Calcium",
+                "Potassium"
+            ],
+            "tacan_odgovor": "Calcium"
+        },
+        {
+            "pitanje": "The chemical symbol Fe represents which chemical element?",
+            "odgovori": [
+                "Francium",
+                "Iron",
+                "Hydrogen",
+                "Oxygen"
+            ],
+            "tacan_odgovor": "Iron"
+        },
+        {
+            "pitanje": "Which social network was created by Mark Zuckerberg?",
+            "odgovori": [
+                "Facebook",
+                "Instagram",
+                "Twitter",
+                "Snapchat"
+            ],
+            "tacan_odgovor": "Facebook"
+        },
+        {
+            "pitanje": "In which year was Nikola Tesla born?",
+            "odgovori": [
+                "1796",
+                "1806",
+                "1836",
+                "1856"
+            ],
+            "tacan_odgovor": "1856"
+        },
+        {
+            "pitanje": "The HIV virus is the causative agent of a disease known as:",
+            "odgovori": [
+                "Cancer",
+                "AIDS",
+                "Ebola",
+                "Tuberculosis"
+            ],
+            "tacan_odgovor": "AIDS"
+        },
+        {
+            "pitanje": "Malaria is transmitted by a type of:",
+            "odgovori": [
+                "Wasp",
+                "Spider",
+                "Mosquito",
+                "Fly"
+            ],
+            "tacan_odgovor": "Mosquito"
+        },
+        {
+            "pitanje": "The 'Achilles' heel' is a symbol of:",
+            "odgovori": [
+                "Strength",
+                "Determination",
+                "Speed",
+                "Weakness"
+            ],
+            "tacan_odgovor": "Weakness"
+        },
+        {
+            "pitanje": "The only building in the world that can be seen from the Moon is:",
+            "odgovori": [
+                "Eiffel Tower",
+                "Leaning Tower of Pisa",
+                "Statue of Liberty",
+                "Great Wall of China"
+            ],
+            "tacan_odgovor": "Great Wall of China"
+        },
+        {
+            "pitanje": "A pharaoh is a ruler in which ancient civilization?",
+            "odgovori": [
+                "Roman Empire",
+                "Mesopotamia",
+                "Ancient Egypt",
+                "Ancient Athens"
+            ],
+            "tacan_odgovor": "Ancient Egypt"
+        },
+        {
+            "pitanje": "Who invented the telephone?",
+            "odgovori": [
+                "Thomas Newcomen",
+                "Thomas Edison",
+                "James Watt",
+                "Alexander Bell"
+            ],
+            "tacan_odgovor": "Alexander Bell"
+        },
+        {
+            "pitanje": "What color is a sapphire?",
+            "odgovori": [
+                "Blue",
+                "Red",
+                "Green",
+                "Yellow"
+            ],
+            "tacan_odgovor": "Blue"
+        },
+        {
+            "pitanje": "Don Quixote fights against:",
+            "odgovori": [
+                "Kings",
+                "Windmills",
+                "Poverty",
+                "Bandits"
+            ],
+            "tacan_odgovor": "Windmills"
+        },
+        {
+            "pitanje": "Big Ben is an iconic structure in which major world metropolis?",
+            "odgovori": [
+                "Rome",
+                "London",
+                "Munich",
+                "San Francisco"
+            ],
+            "tacan_odgovor": "London"
+        },
+        {
+            "pitanje": "Monsoon is a type of:",
+            "odgovori": [
+                "Drink",
+                "Dish",
+                "Wind",
+                "Animal"
+            ],
+            "tacan_odgovor": "Wind"
+        },
+        {
+            "pitanje": "The transplantation of organs is also known as:",
+            "odgovori": [
+                "Transaction",
+                "Transplantation",
+                "Transportation",
+                "Transformation"
+            ],
+            "tacan_odgovor": "Transplantation"
+        },
+        {
+            "pitanje": "The fastest land animal is:",
+            "odgovori": [
+                "Tiger",
+                "Lion",
+                "Puma",
+                "Cheetah"
+            ],
+            "tacan_odgovor": "Cheetah"
+        },
+        {
+            "pitanje": "The national team that won the 2014 FIFA World Cup is:",
+            "odgovori": [
+                "Germany",
+                "England",
+                "Spain",
+                "France"
+            ],
+            "tacan_odgovor": "Germany"
+        },
+        {
+            "pitanje": "The legend of the she-wolf is associated with the founding of the city of:",
+            "odgovori": [
+                "Rome",
+                "London",
+                "Paris",
+                "Budapest"
+            ],
+            "tacan_odgovor": "Rome"
+        },
+        {
+            "pitanje": "Who cut the 'Gordian Knot'?",
+            "odgovori": [
+                "Alexander the Great",
+                "Achilles",
+                "Sisyphus",
+                "Pericles"
+            ],
+            "tacan_odgovor": "Alexander the Great"
+        }
     ]
 }
