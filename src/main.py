@@ -65,7 +65,7 @@ class OpstakulturaApplication(Adw.Application):
                                 application_name='Opsta Kultura',
                                 application_icon='io.github.dida_code.OpstaKultura',
                                 developer_name='Dimitrije Kocic',
-                                version='1.1.2',
+                                version='1.1.3',
                                 developers=['Dimitrije Kocic'],
                                 website='https://github.com/dida-code/opstakultura',
                                 copyright='© 2023 Dimitrije Kocic',
